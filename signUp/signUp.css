@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#main-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(184, 212, 236);
+}
+
+#register-body{
+    display: block;
+    text-align: center;
+    width: 40%;
+    min-height: 60vh;
+    background-color: rgb(254, 194, 116);
+    border: none;
+    border-radius: 5rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.title{
+
+
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+}
+
+
+form input{
+    width: 60%;
+    height: 2.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 4rem;
+
+
+    margin: 2vh 1vh 2vh 1vh;
+}
+
+#gender{
+    width: 41%;
+
+}
+
+.gender{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+form button{
+
+    background-color: white;
+    border: none;
+    border-radius: 5rem ;
+    margin-top: 2vh;
+    width: 30%;
+    height: 3rem;
+
+    font-size:1.25rem;
+    font-weight: 600;
+}
